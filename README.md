@@ -18,6 +18,7 @@ In order to deploy the container image into the IONOS's K8S, it is required to c
 - Scopes:
     - Name: use exactly the same name that you used in the docker deployment. For instance: edc-consumer. You can also use a `*`;
     - Select Action: select the allowed tasks to be used for this connection;
+    - Type: select `repository`;
 4) You will be prompted with informations related to the new connection. Copy/paste them because you will loose access to them!
 
 ## Pushing the image
